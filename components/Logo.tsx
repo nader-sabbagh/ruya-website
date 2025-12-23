@@ -13,18 +13,18 @@ const Logo: React.FC<LogoProps> = ({ theme, className = "", size = "md" }) => {
 
   // Mapping sizes to height for images to keep layout consistent
   const heightClasses = {
-    sm: "h-18",
-    md: "h-24",
-    lg: "h-36",
-    xl: "h-48 md:h-72"
+    sm: "h-6",
+    md: "h-8",
+    lg: "h-12",
+    xl: "h-16 md:h-24"
   };
 
   // Mapping sizes to font size for the text fallback
   const textClasses = {
-    sm: "text-4xl",
-    md: "text-6xl",
-    lg: "text-10xl",
-    xl: "text-14xl md:text-18xl"
+    sm: "text-2xl",
+    md: "text-3xl",
+    lg: "text-5xl",
+    xl: "text-7xl md:text-9xl"
   };
 
   // The component looks for these specific filenames in your root directory
