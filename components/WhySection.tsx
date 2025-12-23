@@ -45,8 +45,9 @@ const WhySection: React.FC<WhySectionProps> = ({ theme }) => {
             <h3 className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#e65c2e] mb-6">Value Proposition</h3>
             <h2 className="text-6xl md:text-8xl font-bold tracking-tighter mb-10 italic">Why Us.</h2>
             <p className="text-2xl font-light opacity-60 leading-relaxed mb-12">
-              We don't just consult; we bridge worlds. In a rapidly evolving region, we provide the lens 
-              that makes the invisible visible and the complex actionable.
+              From live theatre and large-scale events to cultural strategy and creative direction, 
+              we design moments that move people and ideas that last. Our work sits at the intersection of storytelling, 
+              space, and execution — turning vision into experiences you can feel, not just explain.
             </p>
             <div className={`h-1 w-24 bg-[#e65c2e]`} />
           </motion.div>
