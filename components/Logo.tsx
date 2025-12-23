@@ -21,10 +21,10 @@ const Logo: React.FC<LogoProps> = ({ theme, className = "", size = "md" }) => {
 
   // Mapping sizes to font size for the text fallback
   const textClasses = {
-    sm: "text-6xl",
-    md: "text-9xl",
-    lg: "text-15xl",
-    xl: "text-21xl md:text-27xl"
+    sm: "text-4xl",
+    md: "text-6xl",
+    lg: "text-10xl",
+    xl: "text-14xl md:text-18xl"
   };
 
   // The component looks for these specific filenames in your root directory
