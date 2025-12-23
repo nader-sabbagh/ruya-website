@@ -21,7 +21,7 @@ const App: React.FC = () => {
   });
 
   const toggleTheme = () => {
-    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
+    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
   };
 
   const scrollToSection = (id: string) => {
