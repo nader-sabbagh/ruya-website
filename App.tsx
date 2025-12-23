@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import Logo from './components/Logo';
 
 const App: React.FC = () => {
-  const [theme, setTheme] = useState<Theme>('dark');
+  const [theme, setTheme] = useState<Theme>('light');
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -21,7 +21,7 @@ const App: React.FC = () => {
   });
 
   const toggleTheme = () => {
-    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
+    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
   };
 
   const scrollToSection = (id: string) => {
