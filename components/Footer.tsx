@@ -29,7 +29,7 @@ const Footer: React.FC<FooterProps> = ({ theme }) => {
                   <p className="text-xl font-medium group-hover:text-[#e65c2e] transition-colors tracking-tight">+966 54 366 4367</p>
                 </a>
 
-                <a href="tel:+96171399833" className="block group">
+                <a href="tel:+96874193159" className="block group">
                   <p className="text-[10px] font-bold uppercase tracking-[0.4em] opacity-40 mb-2">Oman</p>
                   <p className="text-xl font-medium group-hover:text-[#e65c2e] transition-colors tracking-tight">+968 7419 3159</p>
                 </a>
@@ -64,7 +64,7 @@ const Footer: React.FC<FooterProps> = ({ theme }) => {
 
         <div className="pt-12 border-t border-[#e65c2e]/10 flex flex-col md:flex-row items-center justify-between gap-8">
           <p className="text-[10px] font-bold uppercase tracking-[0.4em] opacity-30">
-            © 2025 Ru'ya Creative. All Rights Reserved.
+            © 2026 Ru'ya Creative. All Rights Reserved.
           </p>
           <div className="flex gap-12 text-[10px] font-bold uppercase tracking-[0.3em] opacity-30">
             <a href="#" className="hover:opacity-100 hover:text-[#e65c2e] transition-all">Privacy</a>
