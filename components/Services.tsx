@@ -16,13 +16,13 @@ const SERVICES: Omit<ServiceItem, 'details'>[] = [
     icon: "lightbulb"
   },
   {
-    title: "Production & Technical",
+    title: "Production & Technical Advisory",
     description: "Show/event oversight, budgeting, AVL & stage design.",
     icon: "production"
   },
   {
-    title: "Partnerships",
-    description: "Expert network, stakeholder alignment & partnerships recommendations.",
+    title: "Stakeholder & Partnership Advisory",
+    description: "Expert network access, stakeholder alignment, and partnership recommendations.",
     icon: "partnerships"
   }
 ];
