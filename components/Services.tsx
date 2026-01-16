@@ -21,8 +21,8 @@ const SERVICES: Omit<ServiceItem, 'details'>[] = [
     icon: "production"
   },
   {
-    title: "Talent & Partnerships",
-    description: "Temporary staffing, expert network, stakeholder alignment.",
+    title: "Partnerships",
+    description: "Expert network, stakeholder alignment & partnerships recommendations.",
     icon: "partnerships"
   }
 ];
