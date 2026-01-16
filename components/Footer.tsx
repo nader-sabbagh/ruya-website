@@ -24,14 +24,19 @@ const Footer: React.FC<FooterProps> = ({ theme }) => {
               </a>
               
               <div className="grid sm:grid-cols-2 gap-12">
-                <a href="tel:+96171399833" className="block group">
-                  <p className="text-[10px] font-bold uppercase tracking-[0.4em] opacity-40 mb-2">Lebanon</p>
-                  <p className="text-xl font-medium group-hover:text-[#e65c2e] transition-colors tracking-tight">+961 71 399 833</p>
-                </a>
-                
                 <a href="tel:+966543664367" className="block group">
                   <p className="text-[10px] font-bold uppercase tracking-[0.4em] opacity-40 mb-2">Saudi Arabia</p>
                   <p className="text-xl font-medium group-hover:text-[#e65c2e] transition-colors tracking-tight">+966 54 366 4367</p>
+                </a>
+
+                <a href="tel:+96171399833" className="block group">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.4em] opacity-40 mb-2">Oman</p>
+                  <p className="text-xl font-medium group-hover:text-[#e65c2e] transition-colors tracking-tight">++968 7419 3159</p>
+                </a>
+               
+                <a href="tel:+96171399833" className="block group">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.4em] opacity-40 mb-2">Lebanon</p>
+                  <p className="text-xl font-medium group-hover:text-[#e65c2e] transition-colors tracking-tight">+961 71 399 833</p>
                 </a>
               </div>
             </div>
