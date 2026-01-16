@@ -7,7 +7,7 @@ interface NetworkSectionProps {
   theme: Theme;
 }
 
-const CITIES = ["Riyadh", "Dubai", "Muscat", "Cairo", "Beirut"];
+const CITIES = ["Riyadh", "Dubai", "Muscat", "Beirut"];
 
 const NetworkSection: React.FC<NetworkSectionProps> = ({ theme }) => {
   return (
