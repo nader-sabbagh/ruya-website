@@ -18,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ theme }) => {
               Start the <span className="italic font-light text-[#e65c2e]">conversation.</span>
             </h2>
             <div className="space-y-12">
-              <a href="mailto:nader@ruyacreative.co" className="block group">
+              <a href="mailto:info@ruyacreative.co" className="block group">
                 <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-[#e65c2e] mb-4">Inquiries</p>
                 <p className="text-3xl md:text-4xl font-light tracking-tight group-hover:translate-x-4 transition-transform duration-500">info@ruyacreative.co</p>
               </a>
